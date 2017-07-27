@@ -1,0 +1,15 @@
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.deps.json
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.runtimeconfig.json
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.runtimeconfig.dev.json
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.dll
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.pdb
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\obj\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.csprojResolveAssemblyReference.cache
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\obj\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.AssemblyInfo.cs
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\obj\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.dll
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\obj\Debug\netcoreapp1.1\BillingServices.CustomerManagementService.pdb
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.dll
+c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CMS.Data.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CMS.Interface.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CMS.Data.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CustomerManagementService\bin\Debug\netcoreapp1.1\BillingServices.CMS.Interface.pdb
