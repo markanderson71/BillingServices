@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using BillingServices.CustomerManagementService.Model;
 using BillingServices.CMS.Core.Interfaces;
 using System.Linq.Expressions;
 using BillingServices.CMS.Core;
@@ -30,14 +29,14 @@ namespace BillingServices.CustomerManagementService
 
         // GET: api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Customer> Get()
         {
-            return new string[] { "value1", "value2" };
+            return customerManager.GetCustomers();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public BillingServices.CMS.Core.Model.Customer Get(string id)
+        public Customer Get(string id)
         {
             
             return customerManager.findByCustomerId(id); ;

@@ -13,6 +13,12 @@ namespace BillingServices.CMS.Core
         {
             this.repository = repository;
         }
+
+
+        public IEnumerable<Customer> GetCustomers()
+        {
+            return repository.Get();
+        }
         
         public Customer findByCustomerId(string id)
         {
