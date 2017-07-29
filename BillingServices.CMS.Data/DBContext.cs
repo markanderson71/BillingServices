@@ -5,6 +5,7 @@ using BillingServices.CMS.Core.Interfaces;
 using MongoDB.Driver;
 using MongoDB.Bson;
 using Microsoft.Extensions.Options;
+using MongoDB.Bson.Serialization;
 
 namespace BillingServices.CMS.Data
 {
@@ -18,6 +19,7 @@ namespace BillingServices.CMS.Data
         {
             this.client = new MongoClient(databaseSettings.ConnectionString);
             this.database = client.GetDatabase(databaseSettings.Database);
+            
         }
 
         public IMongoDatabase Current()

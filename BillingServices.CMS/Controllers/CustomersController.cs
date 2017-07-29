@@ -33,6 +33,8 @@ namespace BillingServices.CustomerManagementService
         [HttpGet]
         public IEnumerable<Customer> Get()
         {
+            List<Customer> X = customerManager.GetCustomers().ToList<Customer>();
+
             return customerManager.GetCustomers();
         }
 
@@ -76,8 +78,28 @@ namespace BillingServices.CustomerManagementService
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(string id)
         {
+            if(id ==null)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                customerManager.Delete(id);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                return BadRequest();
+            }
+            catch (ArgumentException)
+            {
+                return NotFound(id);
+            }
+            
+
+            return NoContent();
         }
     }
 }

@@ -9,6 +9,7 @@ using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using System.Collections.Generic;
 
+
 namespace BillingServices.CMS.Data
 {
     public class MongoRepository : IRespository
@@ -20,36 +21,72 @@ namespace BillingServices.CMS.Data
         public MongoRepository(DBContext dbContext)
         {
             this.dbContext = dbContext;
-            SetSerializationForObjectId();
+            //Customer Class Needs Serilaizatino because of ObjectId string
+            //but can only be registered once if not exception occurs
+            if (!BsonClassMap.IsClassMapRegistered(typeof(Customer)))
+            {
+                SetSerializationForObjectId();
+            }
+            
         }
 
         private static void SetSerializationForObjectId()
         {
             BsonClassMap.RegisterClassMap<Customer>(cm => { cm.AutoMap(); cm.IdMemberMap.SetSerializer(new StringSerializer(BsonType.ObjectId)); });
+           // BsonClassMap.RegisterClassMap<Customer>(cm => { cm.AutoMap(); cm.IdMemberMap(new StringSerializer(BsonType.ObjectId)); });
+        }
+
+        private IMongoCollection<Customer> GetCustomerCollection()
+        {
+            return dbContext.Current().GetCollection<Customer>("Customers");
         }
 
        
-
         public IEnumerable<Customer> Get()
-        {
-            var collection = dbContext.Current().GetCollection<Customer>("Customers");
-            return collection.AsQueryable().Where(_ => true);
+        {                        
+            
+            return GetCustomerCollection().AsQueryable().Where(_ => true);
         }
 
         public Customer GetById(string id)
         {
-           var collection = dbContext.Current().GetCollection<Customer>("Customers");
-           return collection.AsQueryable().Where(cust => cust.Id == id).SingleOrDefault();
+            
+           return GetCustomerCollection().AsQueryable().Where(cust => cust.Id == id).SingleOrDefault();
            
         }
 
         public string Add(Customer customer)
         {
+            
             customer.Id = ObjectId.GenerateNewId().ToString();
-            var collection = dbContext.Current().GetCollection<Customer>("Customers");
-            collection.InsertOne(customer);
-
+            
+            GetCustomerCollection().InsertOne(customer);
             return customer.Id;
+        }
+
+
+        public void Delete(string customerId)
+        {
+
+            var collection = dbContext.Current().GetCollection<Customer>("Customers");
+
+            try { 
+               
+                var result = collection.DeleteOne(Builders<Customer>.Filter.Eq("Id", ObjectId.Parse(customerId)));
+
+                if (result.DeletedCount <= 0)
+                {
+                    throw new ArgumentException("CustomerId was not found in databse for value:" + customerId);
+                }
+
+            }
+            catch(FormatException)
+            {
+                throw new ArgumentOutOfRangeException("CustomerId is not an ObjectId value: " + customerId);
+            }
+            
+
+            
         }
         
     }

@@ -8,7 +8,7 @@ using Moq;
 
 namespace BillingServices.CMS.Core.Test
 {
-    public class CustomerManagerTest
+    public class CustomerManagerFact
     {
         [Fact]
         public void TestCustomerReturnsCustomerIfFound()
@@ -52,8 +52,9 @@ namespace BillingServices.CMS.Core.Test
             CustomerManager cm = new CustomerManager(mockRepo.Object);
 
             Assert.NotNull(cm.Add(It.IsAny<Customer>()));
-
         }
+
+     
 
 
     }

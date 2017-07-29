@@ -15,9 +15,6 @@ namespace BillingServices.CMS.Core.Interfaces
 
 
         string Add(Customer customer);
-
-        
-
-
+        void Delete(string customerId);
     }
 }
