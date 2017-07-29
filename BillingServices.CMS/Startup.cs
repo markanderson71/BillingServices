@@ -12,6 +12,7 @@ using System.Diagnostics.Tracing;
 using Microsoft.Extensions.Options;
 using BillingServices.CMS.Core.Interfaces;
 using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BillingServices.CMS
 {
@@ -32,8 +33,8 @@ namespace BillingServices.CMS
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddMvc();
+            // Set to return json
+            services.AddMvc(options => { options.Filters.Add(new ProducesAttribute("application/json")); });
             
             // NOTE: what does AddOptions do?
             services.AddOptions();
