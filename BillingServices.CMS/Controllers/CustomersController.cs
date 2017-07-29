@@ -7,6 +7,8 @@ using BillingServices.CMS.Core.Interfaces;
 using System.Linq.Expressions;
 using BillingServices.CMS.Core;
 using BillingServices.CMS.Core.Model;
+using BillingServices.CMS.ViewModel;
+using AutoMapper;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -18,13 +20,13 @@ namespace BillingServices.CustomerManagementService
     {
        
         private CustomerManager customerManager;
-
+        private IMapper mapper;
         
-        public CustomersController(IRespository repository)
+        public CustomersController(IRespository repository, IMapper mapper)
         {
            
            this.customerManager = new CustomerManager(repository);
-            
+            this.mapper = mapper;
         }
 
         // GET: api/values
@@ -35,18 +37,35 @@ namespace BillingServices.CustomerManagementService
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name ="GetCustomer")]
         public Customer Get(string id)
         {
             
-            return customerManager.findByCustomerId(id); ;
-                        
+            return customerManager.findByCustomerId(id); ;            
         }
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Post([FromBody]CustomerPostViewModel model)
         {
+            
+            if(!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+
+            try
+            {
+                var customer = mapper.Map<Customer>(model);
+                string newCustomerId = customerManager.Add(customer);
+
+                return CreatedAtRoute("GetCustomer", new { id = newCustomerId }, newCustomerId);
+            }
+            catch(Exception ex)
+            {
+                //TODO: Add Exception Logging
+                return StatusCode(500);
+            }
         }
 
         // PUT api/values/5

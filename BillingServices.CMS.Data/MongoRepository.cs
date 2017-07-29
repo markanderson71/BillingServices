@@ -28,6 +28,7 @@ namespace BillingServices.CMS.Data
             BsonClassMap.RegisterClassMap<Customer>(cm => { cm.AutoMap(); cm.IdMemberMap.SetSerializer(new StringSerializer(BsonType.ObjectId)); });
         }
 
+       
 
         public IEnumerable<Customer> Get()
         {
@@ -42,6 +43,14 @@ namespace BillingServices.CMS.Data
            
         }
 
+        public string Add(Customer customer)
+        {
+            customer.Id = ObjectId.GenerateNewId().ToString();
+            var collection = dbContext.Current().GetCollection<Customer>("Customers");
+            collection.InsertOne(customer);
 
+            return customer.Id;
+        }
+        
     }
 }

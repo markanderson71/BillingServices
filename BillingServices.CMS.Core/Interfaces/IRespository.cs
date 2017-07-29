@@ -10,8 +10,12 @@ namespace BillingServices.CMS.Core.Interfaces
     {
 
         IEnumerable<Customer> Get();
+
         Customer GetById(string id);
-        
+
+
+        string Add(Customer customer);
+
         
 
 

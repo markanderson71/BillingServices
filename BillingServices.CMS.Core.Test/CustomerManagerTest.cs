@@ -27,7 +27,7 @@ namespace BillingServices.CMS.Core.Test
 
         }
 
-
+        [Fact]
         public void TestCustomerReturnsCustomerNullIfNotFound()
         {
             //Arrange
@@ -36,12 +36,22 @@ namespace BillingServices.CMS.Core.Test
             string ParamId = "4";
             Customer Expectedcustomer = new Customer { Id = StoredId, FirstName = "Mark", LastName = "Anderson" };
             mockRepo.Setup(x => x.GetById(StoredId)).Returns(Expectedcustomer);
-
-            //Act
             CustomerManager cm = new CustomerManager(mockRepo.Object);
-
+            //Act
             //Assert
             Assert.Equal(cm.findByCustomerId(ParamId), null);
+
+        }
+
+        [Fact]
+        public void ReturnsValueOnAdd()
+        {
+            Mock<IRespository> mockRepo = new Mock<IRespository>();
+            mockRepo.Setup(x => x.Add(It.IsAny<Customer>())).Returns("anyid");
+
+            CustomerManager cm = new CustomerManager(mockRepo.Object);
+
+            Assert.NotNull(cm.Add(It.IsAny<Customer>()));
 
         }
 

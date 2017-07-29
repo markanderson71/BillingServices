@@ -24,6 +24,13 @@ namespace BillingServices.CMS.Core
         {
             return repository.GetById(id);
         }
+
+
+        public string Add(Customer customer)
+        {
+            return repository.Add(customer);
+        }
+        
          
     }
 }

@@ -11,6 +11,7 @@ using BillingServices.CMS.Data;
 using System.Diagnostics.Tracing;
 using Microsoft.Extensions.Options;
 using BillingServices.CMS.Core.Interfaces;
+using AutoMapper;
 
 namespace BillingServices.CMS
 {
@@ -33,9 +34,14 @@ namespace BillingServices.CMS
         {
 
             services.AddMvc();
-
+            
             // NOTE: what does AddOptions do?
             services.AddOptions();
+
+            //ConfigurationForAutoMapper
+            var config = new AutoMapper.MapperConfiguration(cfg => {cfg.AddProfile(new AutoMapperConfigurationProfile());});
+            var mapper = config.CreateMapper();
+            services.AddSingleton<IMapper>(mapper);
 
             services.Configure<DatabaseSettings>(c =>
             {
