@@ -72,8 +72,25 @@ namespace BillingServices.CustomerManagementService
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public IActionResult Put(string id, [FromBody]CustomerPostViewModel model)
         {
+            if (!ModelState.IsValid || String.IsNullOrEmpty(id) || model == null) 
+            {
+                return BadRequest();
+            }
+
+            var customer = mapper.Map<Customer>(model);
+            customer.Id = id;           
+            try
+            {
+                customerManager.Update(customer);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                return BadRequest();
+            }
+
+            return Accepted(id);
         }
 
         // DELETE api/values/5

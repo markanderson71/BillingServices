@@ -36,5 +36,9 @@ namespace BillingServices.CMS.Core
             repository.Delete(customerId);
         }
          
+        public void Update(Customer customer)
+        {
+            repository.Update(customer);
+        }
     }
 }

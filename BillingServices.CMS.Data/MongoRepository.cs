@@ -12,10 +12,11 @@ using System.Collections.Generic;
 
 namespace BillingServices.CMS.Data
 {
+
+
     public class MongoRepository : IRespository
     {
 
-     
         private DBContext dbContext;
 
         public MongoRepository(DBContext dbContext)
@@ -88,6 +89,18 @@ namespace BillingServices.CMS.Data
 
             
         }
-        
+
+        public void Update(Customer customer)
+        {
+            try
+            {
+                GetCustomerCollection().ReplaceOne<Customer>(p => p.Id == customer.Id, customer, new UpdateOptions { IsUpsert = true });
+            }
+            catch (FormatException)
+            {
+                throw new ArgumentOutOfRangeException("CustomerId is not an ObjectId value: " + customer.Id);
+            }
+        }
+
     }
 }

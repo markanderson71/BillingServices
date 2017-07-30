@@ -13,8 +13,10 @@ namespace BillingServices.CMS.Core.Interfaces
 
         Customer GetById(string id);
 
-
         string Add(Customer customer);
+
         void Delete(string customerId);
+
+        void Update(Customer customer);
     }
 }
