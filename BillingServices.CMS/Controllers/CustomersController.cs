@@ -29,7 +29,7 @@ namespace BillingServices.CustomerManagementService
             this.mapper = mapper;
         }
 
-        // GET: api/values
+        // GET: api/customers
         [HttpGet]
         public IEnumerable<Customer> Get()
         {
@@ -38,7 +38,7 @@ namespace BillingServices.CustomerManagementService
             return customerManager.GetCustomers();
         }
 
-        // GET api/values/5
+        // GET api/customers/5
         [HttpGet("{id}", Name ="GetCustomer")]
         public Customer Get(string id)
         {
@@ -46,7 +46,7 @@ namespace BillingServices.CustomerManagementService
             return customerManager.findByCustomerId(id); ;            
         }
 
-        // POST api/values
+        // POST api/customers
         [HttpPost]
         public IActionResult Post([FromBody]CustomerPostViewModel model)
         {
@@ -70,7 +70,7 @@ namespace BillingServices.CustomerManagementService
             }
         }
 
-        // PUT api/values/5
+        // PUT api/customers/5
         [HttpPut("{id}")]
         public IActionResult Put(string id, [FromBody]CustomerPostViewModel model)
         {
@@ -93,7 +93,7 @@ namespace BillingServices.CustomerManagementService
             return Accepted(id);
         }
 
-        // DELETE api/values/5
+        // DELETE api/customers/5
         [HttpDelete("{id}")]
         public IActionResult Delete(string id)
         {
