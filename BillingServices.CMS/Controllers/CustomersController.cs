@@ -9,6 +9,7 @@ using BillingServices.CMS.Core;
 using BillingServices.CMS.Core.Model;
 using BillingServices.CMS.ViewModel;
 using AutoMapper;
+using Microsoft.Extensions.Logging;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -21,38 +22,46 @@ namespace BillingServices.CustomerManagementService
        
         private CustomerManager customerManager;
         private IMapper mapper;
-        
-        public CustomersController(IRespository repository, IMapper mapper)
+        private readonly ILogger logger;
+
+        public CustomersController(IRespository repository, IMapper mapper, ILogger<CustomersController> logger)
         {
-           
+               
            this.customerManager = new CustomerManager(repository);
-            this.mapper = mapper;
+           this.mapper = mapper;
+           this.logger = logger;
         }
 
         // GET: api/customers
         [HttpGet]
         public IEnumerable<Customer> Get()
         {
+            logger.LogInformation("Get Customer Request");
             List<Customer> X = customerManager.GetCustomers().ToList<Customer>();
-
+            logger.LogInformation("Get Customer Request Completed");
             return customerManager.GetCustomers();
+            
         }
 
         // GET api/customers/5
         [HttpGet("{id}", Name ="GetCustomer")]
         public Customer Get(string id)
         {
+            logger.LogInformation("Get Customer Request with id value of: {0}", id);
+            var customer = customerManager.findByCustomerId(id);
+            logger.LogInformation("Get Customer Request with id value of: {0} Complete", id);
+            return customer;
             
-            return customerManager.findByCustomerId(id); ;            
         }
 
         // POST api/customers
         [HttpPost]
         public IActionResult Post([FromBody]CustomerPostViewModel model)
         {
-            
-            if(!ModelState.IsValid)
+            logger.LogInformation("Add Customer Request");
+            if (!ModelState.IsValid)
             {
+                logger.LogInformation("Add Customer Request Returned Bad Request");
                 return BadRequest();
             }
 
@@ -60,12 +69,12 @@ namespace BillingServices.CustomerManagementService
             {
                 var customer = mapper.Map<Customer>(model);
                 string newCustomerId = customerManager.Add(customer);
-
+                logger.LogInformation("Add Customer Request Complete");
                 return CreatedAtRoute("GetCustomer", new { id = newCustomerId }, newCustomerId);
             }
             catch(Exception ex)
             {
-                //TODO: Add Exception Logging
+                logger.LogError("Add Custtomer Unexpected Exception", ex);
                 return StatusCode(500);
             }
         }
@@ -74,8 +83,10 @@ namespace BillingServices.CustomerManagementService
         [HttpPut("{id}")]
         public IActionResult Put(string id, [FromBody]CustomerPostViewModel model)
         {
+            logger.LogInformation("Updating Customer for id value: {0}", id);
             if (!ModelState.IsValid || String.IsNullOrEmpty(id) || model == null) 
             {
+                logger.LogInformation("Add Customer Request Returned Bad Request");
                 return BadRequest();
             }
 
@@ -87,9 +98,10 @@ namespace BillingServices.CustomerManagementService
             }
             catch (ArgumentOutOfRangeException)
             {
+                logger.LogError("Updated Customer value {0} is invalid");
                 return BadRequest();
             }
-
+            logger.LogInformation("Updating Customer for id value: {0} complete", id);
             return Accepted(id);
         }
 
@@ -97,8 +109,10 @@ namespace BillingServices.CustomerManagementService
         [HttpDelete("{id}")]
         public IActionResult Delete(string id)
         {
-            if(id ==null)
+            logger.LogInformation("Deleting Customer for id value: {0} complete", id);
+            if (id ==null)
             {
+                logger.LogError("Updated Customer value {0} is invalid");
                 return BadRequest();
             }
 
@@ -108,14 +122,16 @@ namespace BillingServices.CustomerManagementService
             }
             catch (ArgumentOutOfRangeException)
             {
+                logger.LogError("Updated Customer value {0} is in valid");
                 return BadRequest();
             }
             catch (ArgumentException)
             {
+                logger.LogInformation("Deleting Customer for id value: {0} was not found", id);
                 return NotFound(id);
             }
-            
 
+            logger.LogInformation("Deleting Customer for id value: {0} complete", id);
             return NoContent();
         }
     }

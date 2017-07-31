@@ -3,7 +3,7 @@ c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\Bill
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp1.1\BillingServices.runtimeconfig.dev.json
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp1.1\BillingServices.dll
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp1.1\BillingServices.pdb
-c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.csprojResolveAssemblyReference.cache
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.AssemblyInfo.cs
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.dll
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.csprojResolveAssemblyReference.cache
