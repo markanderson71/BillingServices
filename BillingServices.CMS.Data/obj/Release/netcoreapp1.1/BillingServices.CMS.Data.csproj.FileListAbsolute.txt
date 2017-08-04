@@ -1,0 +1,11 @@
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Data.deps.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Data.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Data.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Core.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Interface.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Core.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp1.1\BillingServices.CMS.Interface.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp1.1\BillingServices.CMS.Data.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp1.1\BillingServices.CMS.Data.AssemblyInfo.cs
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp1.1\BillingServices.CMS.Data.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp1.1\BillingServices.CMS.Data.pdb

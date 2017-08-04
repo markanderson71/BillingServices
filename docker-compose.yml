@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  billingservices.cms:
+    image: billingservices.cms
+    build:
+      context: ./BillingServices.CMS
+      dockerfile: Dockerfile
+      
+

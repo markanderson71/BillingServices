@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  billingservices.cms:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

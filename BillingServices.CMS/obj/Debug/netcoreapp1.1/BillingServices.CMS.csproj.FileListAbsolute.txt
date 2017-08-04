@@ -1,8 +1,6 @@
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.deps.json
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.runtimeconfig.json
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.runtimeconfig.dev.json
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.csprojResolveAssemblyReference.cache
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.AssemblyInfo.cs
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.dll
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.pdb
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.Core.dll
@@ -13,5 +11,7 @@ C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\Bill
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.Data.pdb
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\bin\Debug\netcoreapp1.1\BillingServices.CMS.Interface.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.AssemblyInfo.cs
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.dll
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.pdb
