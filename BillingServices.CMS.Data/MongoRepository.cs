@@ -102,5 +102,10 @@ namespace BillingServices.CMS.Data
             }
         }
 
+
+        public IDBContext GetContext()
+        {
+            return dbContext;
+        }
     }
 }

@@ -7,6 +7,6 @@ namespace BillingServices.CMS.Core.Interfaces
     public interface IDBContext
     {
 
-        bool isOpen { get; set; }
+       bool isAvailable { get; }
     }
 }

@@ -18,5 +18,7 @@ namespace BillingServices.CMS.Core.Interfaces
         void Delete(string customerId);
 
         void Update(Customer customer);
+
+        IDBContext GetContext();
     }
 }

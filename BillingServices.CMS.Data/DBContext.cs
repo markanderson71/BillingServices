@@ -22,12 +22,24 @@ namespace BillingServices.CMS.Data
             
         }
 
+        //public bool isAvailable { get { return ContactDatabase(); } set => throw new NotImplementedException(); }
+
+        public bool isAvailable { get { return ContactDatabase(); } private set { } }
         public IMongoDatabase Current()
         {
             return database;
         }
 
-        public bool isOpen { get; set; }
+
+
+        private bool  ContactDatabase()
+        {
+            //using database stats to verify database connection 
+            var command = new BsonDocumentCommand<BsonDocument>(new BsonDocument { { "dbstats", 1 }, { "scale", 1 } });
+            
+            var result = this.database.RunCommand<BsonDocument>(command);
+            return true;
+        }
 
        
     }
