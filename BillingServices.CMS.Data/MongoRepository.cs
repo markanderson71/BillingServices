@@ -60,7 +60,8 @@ namespace BillingServices.CMS.Data
         {
             
             customer.Id = ObjectId.GenerateNewId().ToString();
-            
+            customer.CreatedOn = DateTime.UtcNow;
+            customer.LastModifiedDate = DateTime.UtcNow;
             GetCustomerCollection().InsertOne(customer);
             return customer.Id;
         }
@@ -92,6 +93,17 @@ namespace BillingServices.CMS.Data
 
         public void Update(Customer customer)
         {
+
+            
+            var exitingCustomer = GetById(customer.Id);
+            if (exitingCustomer != null)
+            {
+                customer.SetStatus(CustomerStatus.Convert(exitingCustomer.Status));
+                customer.CreatedOn = exitingCustomer.CreatedOn;
+            }
+
+            customer.LastModifiedDate = DateTime.UtcNow;
+
             try
             {
                 GetCustomerCollection().ReplaceOne<Customer>(p => p.Id == customer.Id, customer, new UpdateOptions { IsUpsert = true });

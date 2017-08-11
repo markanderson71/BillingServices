@@ -28,6 +28,7 @@ namespace BillingServices.CMS.Core
 
         public string Add(Customer customer)
         {
+            customer.SetStatus(CustomerStatus.Status.Active);
             return repository.Add(customer);
         }
         

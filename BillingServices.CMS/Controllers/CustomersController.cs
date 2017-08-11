@@ -91,7 +91,8 @@ namespace BillingServices.CustomerManagementService
             }
 
             var customer = mapper.Map<Customer>(model);
-            customer.Id = id;           
+            customer.Id = id;
+            //customer.LastModifiedDate = DateTime.UtcNow;
             try
             {
                 customerManager.Update(customer);

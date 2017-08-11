@@ -7042,10 +7042,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Interface\\BillingServices.CMS.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Interface\\BillingServices.CMS.Interface.csproj",
       "projectName": "BillingServices.CMS.Interface",
-      "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Interface\\BillingServices.CMS.Interface.csproj",
-      "outputPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Interface\\obj\\",
+      "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Interface\\BillingServices.CMS.Interface.csproj",
+      "outputPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

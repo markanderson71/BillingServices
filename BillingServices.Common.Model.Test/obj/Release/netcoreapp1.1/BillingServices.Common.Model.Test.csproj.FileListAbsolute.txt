@@ -1,0 +1,14 @@
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.Test.deps.json
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.Test.runtimeconfig.json
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.Test.runtimeconfig.dev.json
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.Test.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.Test.pdb
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Release\netcoreapp1.1\BillingServices.Common.Model.pdb
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Release\netcoreapp1.1\BillingServices.Common.Model.Test.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Release\netcoreapp1.1\BillingServices.Common.Model.Test.AssemblyInfo.cs
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Release\netcoreapp1.1\BillingServices.Common.Model.Test.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Release\netcoreapp1.1\BillingServices.Common.Model.Test.pdb

@@ -8703,10 +8703,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices\\BillingServices.csproj",
+      "projectUniqueName": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices\\BillingServices.csproj",
       "projectName": "BillingServices",
-      "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices\\BillingServices.csproj",
-      "outputPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices\\obj\\",
+      "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices\\BillingServices.csproj",
+      "outputPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
