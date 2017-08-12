@@ -25,7 +25,7 @@ namespace BillingServices.CMS.Core.Model
         public string Status { get; private set; }
         public DateTime LastModifiedDate { get; set; }
         public DateTime CreatedOn { get; set; }
-        public IEnumerable<CustomerPhoneNumber> Phone { get; set; }
+        public IEnumerable<PhoneNumber> Phone { get; set; }
 
         public void SetStatus(CustomerStatus.Status status)
         {

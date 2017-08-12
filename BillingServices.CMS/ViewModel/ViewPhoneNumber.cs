@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BillingServices.CMS.Core.Model
+namespace BillingServices.CMS.ViewModel
 {
-    public class CustomerPhoneNumber
+    public class ViewPhoneNumber
     {
         public string Type { get; set; }
         public string Number { get; set;}

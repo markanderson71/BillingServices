@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BillingServices.CMS.ViewModel
+namespace BillingServices.CMS.Core.Model
 {
     public class PhoneNumber
     {
