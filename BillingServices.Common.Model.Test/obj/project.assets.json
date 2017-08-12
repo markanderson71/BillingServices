@@ -8538,10 +8538,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model.Test\\BillingServices.Common.Model.Test.csproj",
+      "projectUniqueName": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model.Test\\BillingServices.Common.Model.Test.csproj",
       "projectName": "BillingServices.Common.Model.Test",
-      "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model.Test\\BillingServices.Common.Model.Test.csproj",
-      "outputPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model.Test\\obj\\",
+      "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model.Test\\BillingServices.Common.Model.Test.csproj",
+      "outputPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model.Test\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -8549,8 +8549,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj": {
-              "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj"
+            "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj": {
+              "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj"
             }
           }
         }

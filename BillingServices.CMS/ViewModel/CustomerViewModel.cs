@@ -14,6 +14,6 @@ namespace BillingServices.CMS.ViewModel
         public string Status { get; set; }
         public DateTime LastModifiedDate { get; set; }
         public DateTime CreatedOn { get; set; }
-        public IEnumerable<CustomerPhone> Phone { get; set; }
+        public IEnumerable<PhoneNumber> Phone { get; set; }
     }
 }

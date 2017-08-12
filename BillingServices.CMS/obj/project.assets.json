@@ -11079,10 +11079,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS\\BillingServices.CMS.csproj",
+      "projectUniqueName": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS\\BillingServices.CMS.csproj",
       "projectName": "BillingServices.CMS",
-      "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS\\BillingServices.CMS.csproj",
-      "outputPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS\\obj\\",
+      "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS\\BillingServices.CMS.csproj",
+      "outputPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
@@ -11090,14 +11090,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Core\\BillingServices.CMS.Core.csproj": {
-              "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Core\\BillingServices.CMS.Core.csproj"
+            "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Core\\BillingServices.CMS.Core.csproj": {
+              "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Core\\BillingServices.CMS.Core.csproj"
             },
-            "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj": {
-              "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj"
+            "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj": {
+              "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.Common.Model\\BillingServices.Common.Model.csproj"
             },
-            "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Data\\BillingServices.CMS.Data.csproj": {
-              "projectPath": "C:\\Users\\markanderson\\Documents\\Visual Studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Data\\BillingServices.CMS.Data.csproj"
+            "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Data\\BillingServices.CMS.Data.csproj": {
+              "projectPath": "C:\\Users\\markanderson\\documents\\visual studio 2017\\Projects\\BillingServices\\BillingServices.CMS.Data\\BillingServices.CMS.Data.csproj"
             }
           }
         }

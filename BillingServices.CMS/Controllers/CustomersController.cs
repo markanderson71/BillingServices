@@ -67,7 +67,9 @@ namespace BillingServices.CustomerManagementService
 
             try
             {
+                
                 var customer = mapper.Map<Customer>(model);
+                
                 string newCustomerId = customerManager.Add(customer);
                 logger.LogInformation("Add Customer Request Complete");
                 return CreatedAtRoute("GetCustomer", new { id = newCustomerId }, newCustomerId);
@@ -92,7 +94,7 @@ namespace BillingServices.CustomerManagementService
 
             var customer = mapper.Map<Customer>(model);
             customer.Id = id;
-            //customer.LastModifiedDate = DateTime.UtcNow;
+           
             try
             {
                 customerManager.Update(customer);

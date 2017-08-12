@@ -4,11 +4,9 @@ using System.Text;
 
 namespace BillingServices.CMS.Core.Model
 {
-    public class CustomerPhone
+    public class CustomerPhoneNumber
     {
-        public string PhoneNumber { get; set; }
         public string Type { get; set; }
-        public Boolean isPrefered { get; set; }
-
+        public string Number { get; set;}
     }
 }

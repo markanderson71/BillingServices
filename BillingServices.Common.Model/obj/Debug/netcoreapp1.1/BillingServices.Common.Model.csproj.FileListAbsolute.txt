@@ -1,7 +1,7 @@
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.deps.json
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.dll
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.AssemblyInfo.cs
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.dll
-C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.deps.json
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.AssemblyInfo.cs
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.dll
+C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb

@@ -13,7 +13,9 @@ namespace BillingServices.CMS
         public AutoMapperConfigurationProfile()
         {
             CreateMap<string, string>().ConvertUsing(new NullStringConverter());
+            CreateMap<PhoneNumber, CustomerPhoneNumber>();
             CreateMap<CustomerPostViewModel, Customer>();
+            
         }
     }
 
