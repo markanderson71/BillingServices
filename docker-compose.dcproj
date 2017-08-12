@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" Sdk="Microsoft.Docker.Sdk">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>b36f789b-1863-4b4c-88aa-93bcb3aaa62e</ProjectGuid>
+    <ProjectGuid>3729421f-4b5f-4dfb-9529-f35fb86c4e4f</ProjectGuid>
     <DockerLaunchBrowser>True</DockerLaunchBrowser>
     <DockerServiceUrl>http://localhost:{ServicePort}/api/values</DockerServiceUrl>
     <DockerServiceName>billingservices.cms</DockerServiceName>

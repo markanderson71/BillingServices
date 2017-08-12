@@ -1,9 +1,0 @@
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\bin\Release\netcoreapp1.1\BillingServices.deps.json
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\bin\Release\netcoreapp1.1\BillingServices.runtimeconfig.json
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\bin\Release\netcoreapp1.1\BillingServices.runtimeconfig.dev.json
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\bin\Release\netcoreapp1.1\BillingServices.dll
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\bin\Release\netcoreapp1.1\BillingServices.pdb
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\obj\Release\netcoreapp1.1\BillingServices.csprojResolveAssemblyReference.cache
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\obj\Release\netcoreapp1.1\BillingServices.AssemblyInfo.cs
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\obj\Release\netcoreapp1.1\BillingServices.dll
-C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices\obj\Release\netcoreapp1.1\BillingServices.pdb
