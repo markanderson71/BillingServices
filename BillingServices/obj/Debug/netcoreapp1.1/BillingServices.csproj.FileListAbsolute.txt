@@ -7,3 +7,4 @@ c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\Bill
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.dll
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.pdb
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp1.1\BillingServices.csproj.CoreCompileInputs.cache

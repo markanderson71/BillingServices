@@ -51,7 +51,7 @@ namespace BillingServices.CMS.Core.Test
 
             CustomerManager cm = new CustomerManager(mockRepo.Object);
 
-            Assert.NotNull(cm.Add(It.IsAny<Customer>()));
+            Assert.NotNull(cm.Add(new Mock<Customer>().Object));
         }
 
         

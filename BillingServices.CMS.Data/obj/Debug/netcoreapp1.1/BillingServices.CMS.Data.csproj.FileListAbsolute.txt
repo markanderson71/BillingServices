@@ -9,3 +9,4 @@ C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\Bill
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Debug\netcoreapp1.1\BillingServices.CMS.Data.AssemblyInfo.cs
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Debug\netcoreapp1.1\BillingServices.CMS.Data.dll
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Debug\netcoreapp1.1\BillingServices.CMS.Data.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Debug\netcoreapp1.1\BillingServices.CMS.Data.csproj.CoreCompileInputs.cache

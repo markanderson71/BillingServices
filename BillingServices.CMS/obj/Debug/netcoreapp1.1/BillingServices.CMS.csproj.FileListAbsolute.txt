@@ -15,3 +15,4 @@ C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\Bill
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.AssemblyInfo.cs
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.dll
 C:\Users\markanderson\Documents\Visual Studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS\obj\Debug\netcoreapp1.1\BillingServices.CMS.csproj.CoreCompileInputs.cache

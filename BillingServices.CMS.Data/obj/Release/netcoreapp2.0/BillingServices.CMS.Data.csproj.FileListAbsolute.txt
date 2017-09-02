@@ -1,0 +1,13 @@
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Data.deps.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Data.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Data.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Core.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Interface.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Core.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\bin\Release\netcoreapp2.0\BillingServices.CMS.Interface.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp2.0\BillingServices.CMS.Data.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp2.0\BillingServices.CMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp2.0\BillingServices.CMS.Data.AssemblyInfoInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp2.0\BillingServices.CMS.Data.AssemblyInfo.cs
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp2.0\BillingServices.CMS.Data.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Data\obj\Release\netcoreapp2.0\BillingServices.CMS.Data.pdb

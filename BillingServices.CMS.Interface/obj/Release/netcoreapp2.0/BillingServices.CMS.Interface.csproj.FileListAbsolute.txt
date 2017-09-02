@@ -1,0 +1,8 @@
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\bin\Release\netcoreapp2.0\BillingServices.CMS.Interface.deps.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\bin\Release\netcoreapp2.0\BillingServices.CMS.Interface.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\bin\Release\netcoreapp2.0\BillingServices.CMS.Interface.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\obj\Release\netcoreapp2.0\BillingServices.CMS.Interface.csproj.CoreCompileInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\obj\Release\netcoreapp2.0\BillingServices.CMS.Interface.AssemblyInfoInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\obj\Release\netcoreapp2.0\BillingServices.CMS.Interface.AssemblyInfo.cs
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\obj\Release\netcoreapp2.0\BillingServices.CMS.Interface.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.CMS.Interface\obj\Release\netcoreapp2.0\BillingServices.CMS.Interface.pdb

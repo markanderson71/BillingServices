@@ -37,8 +37,10 @@ namespace BillingServices.CustomerManagementService
         public IEnumerable<Customer> Get()
         {
             logger.LogInformation("Get Customer Request");
-            List<Customer> X = customerManager.GetCustomers().ToList<Customer>();
-            logger.LogInformation("Get Customer Request Completed");
+
+            List<Customer> Customers = customerManager.GetCustomers().ToList<Customer>();
+
+            logger.LogInformation($"Get Customer Request Completed with a count of {Customers.Count}");
             return customerManager.GetCustomers();
             
         }

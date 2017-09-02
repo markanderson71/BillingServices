@@ -12,3 +12,4 @@ c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\Bill
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\bin\Debug\netcoreapp1.1\BillingServices.Common.Model.pdb
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.Test.dll
 c:\users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.Test.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model.Test\obj\Debug\netcoreapp1.1\BillingServices.Common.Model.Test.csproj.CoreCompileInputs.cache

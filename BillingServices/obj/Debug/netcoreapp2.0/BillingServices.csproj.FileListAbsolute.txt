@@ -1,0 +1,10 @@
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp2.0\BillingServices.deps.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp2.0\BillingServices.runtimeconfig.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp2.0\BillingServices.runtimeconfig.dev.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp2.0\BillingServices.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\bin\Debug\netcoreapp2.0\BillingServices.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp2.0\BillingServices.csproj.CoreCompileInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp2.0\BillingServices.AssemblyInfoInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp2.0\BillingServices.AssemblyInfo.cs
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp2.0\BillingServices.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices\obj\Debug\netcoreapp2.0\BillingServices.pdb

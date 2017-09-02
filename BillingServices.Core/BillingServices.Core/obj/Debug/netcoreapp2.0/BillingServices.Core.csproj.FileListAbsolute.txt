@@ -1,0 +1,11 @@
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\bin\Debug\netcoreapp2.0\BillingServices.Core.deps.json
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\bin\Debug\netcoreapp2.0\BillingServices.Core.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\bin\Debug\netcoreapp2.0\BillingServices.Core.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\bin\Debug\netcoreapp2.0\BillingServices.Common.Model.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\bin\Debug\netcoreapp2.0\BillingServices.Common.Model.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\obj\Debug\netcoreapp2.0\BillingServices.Core.csprojResolveAssemblyReference.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\obj\Debug\netcoreapp2.0\BillingServices.Core.csproj.CoreCompileInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\obj\Debug\netcoreapp2.0\BillingServices.Core.AssemblyInfoInputs.cache
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\obj\Debug\netcoreapp2.0\BillingServices.Core.AssemblyInfo.cs
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\obj\Debug\netcoreapp2.0\BillingServices.Core.dll
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Core\BillingServices.Core\obj\Debug\netcoreapp2.0\BillingServices.Core.pdb
