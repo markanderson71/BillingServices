@@ -1,8 +1,27 @@
-version: '3'
+version: "2"
 
 services:
+  mongocmsdb:
+     image: mongo:latest
+     container_name: "mongodb"
+     environment:
+       - MONGO_DATA_DIR=/data/db
+       - MONGO_LOG_DIR=/dev/null
+     volumes:
+       - ./data/db:/data/db
+     ports:
+         - "27017:27017"
+     command: mongod
+
   billingservices.cms:
-    image: billingservices.cms
+    image: markanderson71/billingservices:cms
     build:
       context: ./BillingServices.CMS
       dockerfile: Dockerfile
+    ports:
+      - "5150:80"
+    depends_on: 
+      - mongocmsdb
+    links:
+      - mongocmsdb
+       

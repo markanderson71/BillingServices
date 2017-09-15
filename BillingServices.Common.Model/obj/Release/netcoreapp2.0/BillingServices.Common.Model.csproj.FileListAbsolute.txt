@@ -6,3 +6,4 @@ C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\Bill
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Release\netcoreapp2.0\BillingServices.Common.Model.AssemblyInfo.cs
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Release\netcoreapp2.0\BillingServices.Common.Model.dll
 C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Release\netcoreapp2.0\BillingServices.Common.Model.pdb
+C:\Users\markanderson\documents\visual studio 2017\Projects\BillingServices\BillingServices.Common.Model\obj\Release\netcoreapp2.0\BillingServices.Common.Model.csprojResolveAssemblyReference.cache

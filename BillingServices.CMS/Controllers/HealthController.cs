@@ -52,7 +52,7 @@ namespace BillingServices.CMS.Controllers
                 if (repository.GetContext().isAvailable)
                 {
                         message =  "OK";
-                        logger.LogInformation("Health Check Mongo returned ok");
+                        logger.LogInformation("Health Check Mongo returned OK");
 
                 }
             }
